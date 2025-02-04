@@ -41,10 +41,10 @@ class improve_inference:
 
     def __init__(self, prompt):
         self.prompt = prompt
-        self.initial_answer = None  # answers
+        self.initial_answer = None
         self.keyword = None
         self.url = None
-        self.verification = None  # URL先が真実であるとは限らないが、オフィシャルリソース、人間の真実性の確認は別
+        self.verification = None
         self.improved_answer = None
 
     def model_inference(self, prompt):
