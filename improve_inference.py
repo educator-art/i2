@@ -72,7 +72,7 @@ class improve_inference:
         body_tag.text
         return body_tag.text
 
-    # 時間の確認
+    # 時刻の確認
     def get_current_time(self):
         current = datetime.datetime.now()
         return current, current.strftime("%Y-%m-%d %H:%M:%S")
