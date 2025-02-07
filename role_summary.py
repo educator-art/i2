@@ -10,8 +10,7 @@ from basic_module import basic_module
 class role_summary(basic_module):
 
     def __init__(self, prompt, role):
-        super().__init__(prompt) 
-        self.prompt=prompt
+        super().__init__(prompt)
         self.role=role
 
     def role_play_summary_method(self):
