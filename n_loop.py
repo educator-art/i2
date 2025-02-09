@@ -9,7 +9,6 @@ from basic_module import basic_module
 
 class n_loop(basic_module):
 
-    # あくまで子クラスの引数か・・・
     def __init__(self, prompt, number, random_seed=False):
         super().__init__(prompt, random_seed=random_seed) # 明示的に引き継ぎ
         self.number=number
