@@ -65,11 +65,9 @@ class syntax_check(basic_module):
             
             # Code Blockを削除する
             code=code.replace("```python","").replace("```","").strip()
-            # print(f"実行結果：\n{code}")
             
             # コードを出力する
             output_filepath=self.file_write(code)
-            print(output_filepath)
 
             # 推論結果のコードを安全にテストする
             client = docker.from_env()
