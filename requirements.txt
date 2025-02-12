@@ -1,5 +1,6 @@
 beautifulsoup4
 requests
+pip docker
 # Option, Please change the library installation depending on the model you use.
 google-generativeai
 google-genai
