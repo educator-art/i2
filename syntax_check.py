@@ -90,7 +90,8 @@ class syntax_check(basic_module):
             log_message=container.logs().decode('utf-8')
             
             if exit_code["StatusCode"]==0:
-                # return_value=log_message
+                return_value=log_message
+                print(f"出力結果:\n{return_value.strip}")
                 print("finished")
                 break
             else:
