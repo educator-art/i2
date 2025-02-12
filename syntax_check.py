@@ -91,7 +91,7 @@ class syntax_check(basic_module):
             
             if exit_code["StatusCode"]==0:
                 return_value=log_message
-                print(f"出力結果:\n{return_value.strip}")
+                print(f"出力結果:\n{return_value}")
                 print("finished")
                 break
             else:
